@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-  dsfsdf
 # ============================================================
-# [통합] A* Pathfinding + Pure Pursuit + Event Handling
+# [통합] A* Pathfinding + Pure Pursuit + Event Handlingd
 # ============================================================
 
 from flask import Flask, request, jsonify
@@ -15,9 +15,9 @@ from ultralytics import YOLO
 app = Flask(__name__)
 
 # 파일 경로 (사용자 환경에 맞게 확인 필요)
-LOG_FILE    = r"C:\\Users\\cheei\\Documents\\Tank Challenge\\log_data\\tank_info_log.txt"
-OUTPUT_CSV  = r"C:\\Users\\cheei\\Documents\\Tank Challenge\\log_data\\output.csv"
-MAP_FILE    = r"11_25.map"
+LOG_FILE    = r"C:\Users\acorn\Documents\Tank Challenge\\log_data\\tank_info_log.txt"
+OUTPUT_CSV  = r"C:\Users\acorn\Documents\Tank Challenge\\log_data\\output.csv"
+MAP_FILE    = r"11_24_tuning.map"
 
 # ------------------------------------------------------------
 # WAYPOINT (주요 경유지)
